@@ -1,0 +1,11 @@
+.tab-button {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  width: 150px;
+  height: 45px;
+  color: white;
+  transition: background-color 0.6s;
+}

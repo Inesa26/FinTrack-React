@@ -1,0 +1,33 @@
+.header {
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin-left: 70px;
+  margin-top: 10px;
+  margin-right: 70px;
+}
+
+.left-section #possible {
+  background: linear-gradient(to right, #488cef, #0873ff, #064aaf);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  padding: 20px;
+}
+
+.get-started-btn {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  background-color: #064aaf;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  width: 150px;
+  height: 45px;
+  color: white;
+}
+
+.get-started-btn:hover {
+  background-color: #2b2929;
+}

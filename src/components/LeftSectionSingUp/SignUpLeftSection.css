@@ -1,0 +1,8 @@
+.signup-left-section {
+  background-color: #2b2929;
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
