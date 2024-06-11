@@ -1,0 +1,108 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 323 266" width="323" height="266">
+	<title>4959667-ai</title>
+	<defs>
+		<linearGradient id="g1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(670.775,670.775,-670.775,670.775,-90.12,309.128)">
+			<stop offset="0" stop-color="#589cff"/>
+			<stop offset="1" stop-color="#0044a9"/>
+		</linearGradient>
+		<linearGradient id="g2" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(45.752,-0.078,.091,53.275,22.546,91.226)">
+			<stop offset="0" stop-color="#589cff"/>
+			<stop offset="1" stop-color="#0044a9"/>
+		</linearGradient>
+		<linearGradient id="g3" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(63.862,-15.474,18.026,74.393,14.051,138.366)">
+			<stop offset="0" stop-color="#589cff"/>
+			<stop offset="1" stop-color="#0044a9"/>
+		</linearGradient>
+		<linearGradient id="g4" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(241.778,0,0,216.849,41.399,27.892)">
+			<stop offset="0" stop-color="#589cff"/>
+			<stop offset="1" stop-color="#0044a9"/>
+		</linearGradient>
+		<linearGradient id="g5" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(280.89,0,0,199.229,22.468,27)">
+			<stop offset="0" stop-color="#ffffff"/>
+			<stop offset="1" stop-color="#589cff"/>
+		</linearGradient>
+		<linearGradient id="g6" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(217.328,0,0,102.15,22.024,60.286)">
+			<stop offset="0" stop-color="#ffffff"/>
+			<stop offset="1" stop-color="#589cff"/>
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: url(#g1) } 
+		.t1 { font-size: 15px;line-height: 29px;fill: #000000;font-weight: 600;font-family: "Montserrat-SemiBold", "Montserrat" } 
+		.s2 { fill: url(#g2) } 
+		.s3 { fill: url(#g3) } 
+		.s4 { fill: url(#g4) } 
+		.s5 { fill: #001738 } 
+		.s6 { fill: url(#g5) } 
+		.s7 { fill: url(#g6) } 
+		.t8 { font-size: 25px;line-height: 11px;fill: #000000;font-weight: 900;font-family: "Montserrat-Black", "Montserrat" } 
+		.t9 { font-size: 10px;line-height: 18px;fill: #000000;font-weight: 600;font-family: "Montserrat-SemiBold", "Montserrat" } 
+		.s10 { fill: #ffffff } 
+	</style>
+	<g id="BACKGROUND">
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s0" d="m647 825h-1000v-248h1000z"/>
+		</g>
+	</g>
+	<g id="OBJECTS">
+		<g id="&lt;Group&gt;">
+			<g id="&lt;Group&gt;">
+				<g id="&lt;Group&gt;">
+					<g id="&lt;Group&gt;">
+						<g id="&lt;Group&gt;">
+						</g>
+					</g>
+					<g id="&lt;Group&gt;">
+						<text id="TAGLINE GOES HERE
+" style="transform: matrix(2,0,0,2,-146.707,322.867)" >
+							<tspan x="-118.2" y="0" class="t1" dx="0 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5" >TAGLINE GOES HERE
+</tspan>
+						</text>
+					</g>
+				</g>
+				<g id="&lt;Group&gt;">
+					<path id="&lt;Path&gt;" class="s2" d="m22.6 116.1c1.1-13.2 11.7-23.6 24.9-24.5l18.3-0.4 2.6 53.2z"/>
+					<path id="&lt;Path&gt;" class="s3" d="m22.5 173.1c-2.9-18.8 8.4-36.9 26.6-42.6l9.4-2.9 37.4 69.7z"/>
+					<g id="&lt;Group&gt;">
+						<path id="&lt;Compound Path&gt;" fill-rule="evenodd" class="s4" d="m279.4 150.2l-46.5 80.6c-5 8.6-14.1 13.9-24.1 13.9h-93c-10 0-19.2-5.3-24.1-13.9l-0.5-0.8-29.8-51.6-7.5-12.9-8.8-15.3c-4.3-7.5-4.9-16.5-1.6-24.3q0.7-1.8 1.6-3.5l46.6-80.6c4.9-8.6 14.1-13.9 24.1-13.9h93c10 0 19.1 5.3 24.1 13.9l22.2 38.4 7.4 12.9 16.9 29.3c5 8.6 5 19.2 0 27.8zm-28.9-24.3l-6.1-10.6-10.2-17.5-5.3-9.2-10.8-18.8-2.7-4.6c-3.7-6.5-10.6-10.5-18.1-10.5h-70c-7.5 0-14.4 4-18.2 10.5l-35 60.7q-0.8 1.4-1.4 3c-2.2 5.8-1.7 12.4 1.4 17.9l9.7 16.8 6.2 10.7 19.1 33.1c3 5.2 7.9 8.7 13.5 10q2.3 0.5 4.7 0.5h70c7.5 0 14.4-4 18.1-10.5l35.1-60.6c3.7-6.5 3.7-14.5 0-20.9z"/>
+						<g id="&lt;Group&gt;" style="opacity: .4">
+							<path id="&lt;Path&gt;" class="s5" d="m122.6 217.4q-8.1 4.3-16.5 8.1c-4.9 2.2-9.9 3.7-14.9 4.5l-29.8-51.6q14.3-1 28.6-4.1l19.1 33.1c3 5.2 7.9 8.7 13.5 10z"/>
+							<path id="&lt;Path&gt;" class="s5" d="m262.5 93.1q-8.9 11.4-18.1 22.2l-10.2-17.5q10.5-8.5 20.9-17.6z"/>
+							<path id="&lt;Path&gt;" class="s5" d="m74.1 146.8l9.7 16.8q-5.7 1.5-11.5 2.6c-6.4 1.2-12.6 0.9-18.4-0.7l-8.8-15.3c-4.3-7.5-4.9-16.5-1.6-24.3 9.4 2 19.2 3 29.2 3-2.2 5.8-1.7 12.4 1.4 17.9z"/>
+							<path id="&lt;Path&gt;" class="s5" d="m242.2 64.8l-13.3 23.8-10.8-18.8z"/>
+						</g>
+					</g>
+					<g id="&lt;Group&gt;">
+						<path id="&lt;Path&gt;" class="s6" d="m253.5 50.7l21.1 4.7c-85.2 80.5-169.5 127.9-252.1 117.7 2.7 39.9 44.5 64.5 80.8 47.9 67.6-30.7 125.5-87.4 177.2-160.5l8.1 19.7 14.8-53.2z"/>
+						<path id="&lt;Path&gt;" class="s7" d="m69.5 161.7c51.7-10 101-39.8 148.7-82.1l2.2 14.7 19-34-38.1 8 14.6 7.1c-72.2 42.1-138.2 61.3-193.3 40.7-4.6 27.4 19.6 50.9 46.9 45.6z"/>
+					</g>
+				</g>
+			</g>
+			<g id="&lt;Group&gt;">
+				<g id="&lt;Group&gt;">
+					<g id="&lt;Group&gt;">
+						<text id="ACCOUNTING
+" style="transform: matrix(2,0,0,2,223.57,711.431)" >
+							<tspan x="-91.5" y="0" class="t8">ACCOUNTING
+</tspan>
+						</text>
+					</g>
+					<g id="&lt;Group&gt;">
+						<text id="TAGLINE GOES HERE
+" style="transform: matrix(2,0,0,2,220.763,736.323)" >
+							<tspan x="-74.3" y="0" class="t9" dx="0 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3" >TAGLINE GOES HERE
+</tspan>
+						</text>
+					</g>
+				</g>
+				<g id="&lt;Group&gt;">
+					<path id="&lt;Path&gt;" class="s10" d="m7 661l10.9 2.4c-41.1 38.8-81.7 62.7-121.6 61.5l-6.7-2.2c-0.3-4.1 0.7-8 2.8-11.2 4.6 5.3 11.9 8.3 19.6 6.8 26.7-5.1 52.1-20.5 76.8-42.3l1.1 7.5 9.8-17.5-19.7 4.1 7.6 3.7c-33.9 19.8-65.2 29.8-92.1 23.3l-5.5-3.4c1-5.2 5.3-9.1 10.8-9.5l6.7-0.2-6.9 12.1q5.8 0.9 11.9 0.9 0 0 0 0 1.8 0 3.6-0.1l16.4-28.4c1.9-3.3 5.5-5.4 9.3-5.4h36.2c3.1 0 6 1.4 8 3.6l14.6-3-4.2-7.3c-2.6-4.4-7.3-7.1-12.5-7.1h-48c-5.1 0-9.9 2.7-12.4 7.1l-14.8 25.5-8 0.2c-6.9 0.5-12.3 5.9-12.9 12.7-0.9 5.6 0.4 10.8 3.3 15-2.8 4.1-4.2 9.2-3.4 14.4 1.5 20.6 23 33.3 41.8 24.8 34.9-15.9 64.7-45.2 91.5-82.9l4.1 10.2 7.6-27.5z"/>
+					<path id="&lt;Path&gt;" class="s10" d="m-87.6 720.4q-2.2 0.4-4.4 0.4 0 0 0 0-2 0-3.9-0.4l1.2 2.3q7.4-0.5 14.9-2.1l-0.8-1.3-0.3-0.5q-3.3 0.9-6.7 1.6z"/>
+					<path id="&lt;Path&gt;" class="s10" d="m-5.7 680.6l0.3 0.5q5.4-4.3 10.8-9.1l-3.4-5.9-7.9 14.1z"/>
+					<path id="&lt;Path&gt;" class="s10" d="m11.6 682.9l-0.2-0.5q-4.7 6-9.4 11.5l0.3 0.5 3.1 5.4c2 3.4 2 7.5 0 10.8l-18.1 31.3c-1.9 3.4-5.5 5.5-9.3 5.5h-36.2q-1.2-0.1-2.4-0.3-0.4-0.1-0.9-0.3-4.1 2.2-8.2 4-3.6 1.7-7.3 2.4l0.2 0.4 0.3 0.4c2.5 4.5 7.3 7.2 12.4 7.2h48c5.2 0 9.9-2.7 12.5-7.2l24-41.6c2.6-4.4 2.6-9.9 0-14.4z"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>
