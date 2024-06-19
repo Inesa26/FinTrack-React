@@ -1,5 +1,9 @@
-import React, { createContext, useContext, useState, ReactNode } from 'react';
-import { LoginCommand, LoginDto, login as accountLogin } from '../services/AccountService';
+import React, { ReactNode, createContext, useContext, useState } from "react";
+import {
+  LoginCommand,
+  LoginDto,
+  login as accountLogin,
+} from "../services/AccountService";
 
 interface AuthContextType {
   isAuthenticated: boolean;
@@ -16,7 +20,7 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined);
 export const useAuth = () => {
   const context = useContext(AuthContext);
   if (!context) {
-    throw new Error('useAuth must be used within an AuthProvider');
+    throw new Error("useAuth must be used within an AuthProvider");
   }
   return context;
 };
@@ -31,15 +35,15 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
       if (authResult.token) {
         setIsAuthenticated(true);
         setAuthToken(authResult.token);
-        localStorage.setItem('token', authResult.token);
+        localStorage.setItem("token", authResult.token);
         return authResult;
       } else {
-        console.error('Login failed: No token received');
-        throw new Error('Login failed: No token received');
+        console.error("Login failed: No token received");
+        throw new Error("Login failed: No token received");
       }
     } catch (error) {
       const unknownError = error as Error;
-      console.error('Login failed:', unknownError.message);
+      console.error("Login failed:", unknownError.message);
       throw unknownError;
     }
   };

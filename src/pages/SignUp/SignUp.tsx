@@ -5,11 +5,14 @@ import "./SignUp.css";
 
 export default function LogIn() {
   return (
-    <><Helmet>
-      <title>Sign Up</title>
-    </Helmet><div className="sign-up">
+    <>
+      <Helmet>
+        <title>Sign Up</title>
+      </Helmet>
+      <div className="sign-up">
         <SignUpLeftSection />
         <SignUpRightSection />
-      </div></>
+      </div>
+    </>
   );
 }

@@ -1,6 +1,6 @@
-import "./Header.css";
-import Message from "../../Message.tsx";
 import { useNavigate } from "react-router-dom";
+import Message from "../../Message.tsx";
+import "./Header.css";
 
 export default function Header() {
   const navigate = useNavigate();

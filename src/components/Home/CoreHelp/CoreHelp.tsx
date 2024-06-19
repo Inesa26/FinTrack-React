@@ -13,7 +13,11 @@ interface CoreHelpProps {
 export default function CoreHelp(props: CoreHelpProps) {
   return (
     <li className="core-help">
-      <img style={{ marginLeft: "30px", marginBottom: "20px", }} src={props.image} alt={props.title} />
+      <img
+        style={{ marginLeft: "30px", marginBottom: "20px" }}
+        src={props.image}
+        alt={props.title}
+      />
       <TabButton
         onSelect={() => props.onSelect(props.description)}
         onClick={() => props.onClick(props.title)}

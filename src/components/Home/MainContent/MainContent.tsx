@@ -1,11 +1,11 @@
 import { useState } from "react";
-import CoreHelp from "../CoreHelp/CoreHelp.tsx";
-import "./MainContent.css";
+import answerImg from "../../../assets/answers.png";
+import dataImg from "../../../assets/data.png";
+import efficientImg from "../../../assets/efficient.png";
 import homeImg from "../../../assets/home.png";
 import questionImg from "../../../assets/question.png";
-import dataImg from "../../../assets/data.png";
-import answerImg from "../../../assets/answers.png";
-import efficientImg from "../../../assets/efficient.png";
+import CoreHelp from "../CoreHelp/CoreHelp.tsx";
+import "./MainContent.css";
 
 export default function MainContent() {
   const [selectedDescription, setSelectedDescription] = useState("");

@@ -1,20 +1,20 @@
 import {
-  Button,
-  CssBaseline,
-  TextField,
-  Link,
-  Grid,
   Box,
-  Typography,
-  Container,
+  Button,
   Checkbox,
+  Container,
+  CssBaseline,
   FormControlLabel,
-} from '@mui/material';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { useNavigate } from 'react-router-dom';
-import { useFormik } from 'formik';
-import * as Yup from 'yup';
-import { register } from '../../services/AccountService';
+  Grid,
+  Link,
+  TextField,
+  Typography,
+} from "@mui/material";
+import { ThemeProvider, createTheme } from "@mui/material/styles";
+import { useFormik } from "formik";
+import { useNavigate } from "react-router-dom";
+import * as Yup from "yup";
+import { register } from "../../services/AccountService";
 
 const defaultTheme = createTheme({
   palette: {
@@ -29,7 +29,7 @@ interface SignUpFormValues {
   lastName: string;
   email: string;
   password: string;
-  server?: string; 
+  server?: string;
 }
 
 export default function SignUp() {
@@ -69,12 +69,12 @@ export default function SignUp() {
           email: values.email,
           password: values.password,
         });
-        
-        console.log('User registered successfully:', response);
-        navigate('/login');  
+
+        console.log("User registered successfully:", response);
+        navigate("/login");
       } catch (error) {
-        console.error('Registration error:', error);
-        setErrors({ server: 'Registration failed. Please try again.' });
+        console.error("Registration error:", error);
+        setErrors({ server: "Registration failed. Please try again." });
       } finally {
         setSubmitting(false);
       }

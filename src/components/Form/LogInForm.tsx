@@ -1,9 +1,18 @@
-import { Button, CssBaseline, TextField, Link, Grid, Box, Typography, Container } from '@mui/material';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { useNavigate } from 'react-router-dom';
-import { useFormik } from 'formik';
-import * as Yup from 'yup';
-import { useAuth } from '../../contexts/AuthContext';
+import {
+  Box,
+  Button,
+  Container,
+  CssBaseline,
+  Grid,
+  Link,
+  TextField,
+  Typography,
+} from "@mui/material";
+import { ThemeProvider, createTheme } from "@mui/material/styles";
+import { useFormik } from "formik";
+import { useNavigate } from "react-router-dom";
+import * as Yup from "yup";
+import { useAuth } from "../../contexts/AuthContext";
 
 const defaultTheme = createTheme({
   palette: {
@@ -16,7 +25,7 @@ const defaultTheme = createTheme({
 interface LogInFormValues {
   email: string;
   password: string;
-  server?: string; 
+  server?: string;
 }
 
 export default function LogIn() {
@@ -25,18 +34,21 @@ export default function LogIn() {
 
   const formik = useFormik<LogInFormValues>({
     initialValues: {
-      email: '',
-      password: '',
+      email: "",
+      password: "",
     },
     validationSchema: Yup.object({
-      email: Yup.string().email('Invalid email address').required('Required'),
+      email: Yup.string().email("Invalid email address").required("Required"),
       password: Yup.string()
-        .min(8, 'Password must be at least 8 characters')
-        .matches(/[a-z]/, 'Password must contain at least one lowercase letter')
-        .matches(/[A-Z]/, 'Password must contain at least one uppercase letter')
-        .matches(/[0-9]/, 'Password must contain at least one digit')
-        .matches(/[@$!%*?&#]/, 'Password must contain at least one special character')
-        .required('Required'),
+        .min(8, "Password must be at least 8 characters")
+        .matches(/[a-z]/, "Password must contain at least one lowercase letter")
+        .matches(/[A-Z]/, "Password must contain at least one uppercase letter")
+        .matches(/[0-9]/, "Password must contain at least one digit")
+        .matches(
+          /[@$!%*?&#]/,
+          "Password must contain at least one special character"
+        )
+        .required("Required"),
     }),
     onSubmit: async (values, { setSubmitting, setErrors }) => {
       try {
@@ -44,11 +56,11 @@ export default function LogIn() {
           email: values.email,
           password: values.password,
         });
-        console.log('User logged successfully:', response.token);
-        navigate('/afterLogin');  
+        console.log("User logged successfully:", response.token);
+        navigate("/overview");
       } catch (error) {
-        console.error('Login error:', error);
-        setErrors({ server: 'Login failed. Please try again.' });
+        console.error("Login error:", error);
+        setErrors({ server: "Login failed. Please try again." });
       } finally {
         setSubmitting(false);
       }
@@ -59,11 +71,23 @@ export default function LogIn() {
     <ThemeProvider theme={defaultTheme}>
       <Container component="main" maxWidth="xs">
         <CssBaseline />
-        <Box sx={{ marginTop: 8, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+        <Box
+          sx={{
+            marginTop: 8,
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+          }}
+        >
           <Typography component="h1" variant="h5">
             Log in
           </Typography>
-          <Box component="form" onSubmit={formik.handleSubmit} noValidate sx={{ mt: 1 }}>
+          <Box
+            component="form"
+            onSubmit={formik.handleSubmit}
+            noValidate
+            sx={{ mt: 1 }}
+          >
             <TextField
               margin="normal"
               required
@@ -108,8 +132,12 @@ export default function LogIn() {
                 {formik.errors.server}
               </Typography>
             )}
-            <Grid item style={{ textAlign: 'center' }}>
-              <Link onClick={() => navigate('/signup')} href="#" variant="body2">
+            <Grid item style={{ textAlign: "center" }}>
+              <Link
+                onClick={() => navigate("/signup")}
+                href="#"
+                variant="body2"
+              >
                 {"Don't have an account? Sign Up"}
               </Link>
             </Grid>

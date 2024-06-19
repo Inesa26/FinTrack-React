@@ -1,6 +1,6 @@
-import React, { useState, ChangeEvent } from 'react';
+import { ChangeEvent, useState } from "react";
+import logoImg from "../../../assets/logo.png";
 import Image from "../../Image/Image.tsx";
-import logoImg from "../../assets/logo.png";
 
 interface HeaderProps {
   onPeriodChange: (period: string) => void;
@@ -8,8 +8,12 @@ interface HeaderProps {
   totalExpenses: number;
 }
 
-const DashboardHeader: React.FC<HeaderProps> = ({ onPeriodChange, totalIncome, totalExpenses }) => {
-  const [selectedPeriod, setSelectedPeriod] = useState<string>('');
+export default function DashboardHeader({
+  onPeriodChange,
+  totalIncome,
+  totalExpenses,
+}: HeaderProps) {
+  const [selectedPeriod, setSelectedPeriod] = useState<string>("");
 
   const handlePeriodChange = (e: ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
@@ -19,13 +23,13 @@ const DashboardHeader: React.FC<HeaderProps> = ({ onPeriodChange, totalIncome, t
 
   return (
     <header className="header">
-     <Image src={logoImg} alt="FinTrack logo" width={180} />
+      <Image src={logoImg} alt="FinTrack logo" width={180} />
       <div className="period-selection">
-        <input 
-          type="month" 
-          value={selectedPeriod} 
-          onChange={handlePeriodChange} 
-          min="1950-01" 
+        <input
+          type="month"
+          value={selectedPeriod}
+          onChange={handlePeriodChange}
+          min="1950-01"
           max="2100-12"
         />
         <div className="totals">
@@ -36,5 +40,3 @@ const DashboardHeader: React.FC<HeaderProps> = ({ onPeriodChange, totalIncome, t
     </header>
   );
 }
-
-export default DashboardHeader;

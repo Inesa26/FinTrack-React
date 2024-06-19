@@ -1,7 +1,7 @@
-import Message from "../../Message.tsx";
-import "./SignUpLeftSection.css";
 import signupImg from "../../../assets/signup.png";
 import Image from "../../Image/Image.tsx";
+import Message from "../../Message.tsx";
+import "./SignUpLeftSection.css";
 
 export default function SignUpLeftSection() {
   return (

@@ -1,6 +1,6 @@
-import axios from 'axios';
+import axios from "axios";
 
-const API_URL = 'https://localhost:7049/api/account';
+const API_URL = "https://localhost:7049/api/account";
 
 export interface CreateAccountCommand {
   firstName: string;
@@ -23,8 +23,13 @@ export interface AccountDto {
   userId: number;
 }
 
-export const register = async (createAccount: CreateAccountCommand): Promise<AccountDto> => {
-  const response = await axios.post<AccountDto>(`${API_URL}/register`, createAccount);
+export const register = async (
+  createAccount: CreateAccountCommand
+): Promise<AccountDto> => {
+  const response = await axios.post<AccountDto>(
+    `${API_URL}/register`,
+    createAccount
+  );
   return response.data;
 };
 

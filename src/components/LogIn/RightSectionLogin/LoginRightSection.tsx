@@ -1,7 +1,7 @@
-import Message from "../../Message.tsx";
-import "./LoginRightSection.css";
 import signinImg from "../../../assets/signin.png";
 import Image from "../../Image/Image.tsx";
+import Message from "../../Message.tsx";
+import "./LoginRightSection.css";
 
 export default function LoginRightSection() {
   return (
